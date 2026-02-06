@@ -4,7 +4,6 @@ Crie duas variáveis booleanas:
 tem_carteira = True
 tem_carro = False
 
-
 Imprima os valores.
 '''
 
