@@ -19,7 +19,7 @@ Imprima o resultado.
 '''
 
 idade = 19
-tem_documento = False
+tem_documento = True
 esta_acompanhado = False
 
 validador = idade >= 18 or (idade < 18 and esta_acompanhado == True)
