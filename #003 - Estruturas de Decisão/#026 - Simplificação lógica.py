@@ -7,8 +7,12 @@ Outra usando a forma simplificada
 Compare os resultados imprimindo ambos.
 '''
 
-teste1 = 10
-teste2 = 11
-teste3 = 11
+tem_acesso = True
+tem_documento = False
 
-if teste1 = 10 not (teste2 = 11 and teste3 = 11)
+resultado_1 = not (tem_acesso and tem_documento)
+
+resultado_2 = (not tem_acesso) or (not tem_documento)
+
+print(f'Resultado 1: {resultado_1}')
+print(f'Resultado 2: {resultado_2}')
