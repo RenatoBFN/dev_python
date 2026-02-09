@@ -17,10 +17,10 @@ Use if para imprimir:
 '''
 
 idade = 17
-tem_documento = False
-esta_acompanhado = True
+tem_documento = True
+esta_acompanhado = False
 
-if idade >= 18 or (idade < 18 and esta_acompanhado) and tem_documento:
+if (idade >= 18 or (idade < 18 and esta_acompanhado)) and tem_documento:
     print('Acesso permitodo')
 else:
     print('Acesso negado')

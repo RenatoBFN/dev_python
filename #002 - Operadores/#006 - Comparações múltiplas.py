@@ -1,11 +1,9 @@
 '''
 Crie:
-
     x = 15
     y = 10
 
 Crie variáveis booleanas para:
-
     x é maior que y
     x é diferente de y
     x é igual a y

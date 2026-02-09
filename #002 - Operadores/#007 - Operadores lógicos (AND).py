@@ -1,19 +1,18 @@
 '''
 Crie:
-
-idade = 20
-tem_documento = True
+    idade = 20
+    tem_documento = True
 
 Crie uma variável booleana que represente:
 
-    Pode entrar se idade ≥ 18 e tem documento
+1. Pode entrar se idade ≥ 18 e tem documento
 
 Imprima o resultado.
 '''
 
 idade = 20
-tem_documento = False
+tem_documento = True
 
-validador = idade >= 18 and tem_documento == True
+validador = idade >= 18 and tem_documento
 
 print(f'O motorista está de acordo: {validador}.')

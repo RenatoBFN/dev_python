@@ -13,6 +13,6 @@ usuario_ativo = True
 resultado1 = not usuario_ativo
 
 if resultado1 == False:
-    print('Usuário inativo')
-else:
     print('Usuário ativo')
+else:
+    print('Usuário inativo')

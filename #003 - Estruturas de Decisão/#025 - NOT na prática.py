@@ -5,11 +5,11 @@ Crie:
 Use if e not para permitir ou negar acesso.
 '''
 
-usuario_bloqueado = True
+usuario_bloqueado = False
 
-usuario_bloqueado = not False
+usuario_bloqueado = False
 
-if usuario_bloqueado:
+if not usuario_bloqueado:
     print('Liberado!')
 else:
     print('Bloqueado')

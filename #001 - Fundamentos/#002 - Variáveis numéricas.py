@@ -1,9 +1,8 @@
 '''
 Crie duas variáveis:
 
-Uma com um número inteiro
-
-Outra com um número float
+1. Uma com um número inteiro
+2. Outra com um número float
 
 Depois, imprima os dois valores usando print().
 '''

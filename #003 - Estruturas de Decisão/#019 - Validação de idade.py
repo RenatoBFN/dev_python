@@ -6,7 +6,7 @@ Use if / else para verificar se a pessoa é:
 2. "Maior de idade"
 '''
 
-idade = 18
+idade = 25
 
 if idade >= 18:
     print('Maior de idade')

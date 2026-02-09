@@ -20,7 +20,7 @@ print('RESUMO DA UNIDADE\n')
 
 number_int = 10
 number_float = 9.8
-txt_str = 'Concluído'
+txt_str = "Concluído"
 result = True
 
 print(f'A soma dos números: {number_int + number_float:.2f}\n'
@@ -31,7 +31,7 @@ print(f'A soma dos números: {number_int + number_float:.2f}\n'
       )
 
 print(f'Aluno está aprovado? (True = Aprovado / False = Reprovado)\n'
-      f'Resultado: {txt_str == 'Concluído' and result}\n'
+      f'Resultado: {txt_str == "Concluído" and result}\n'
       )
 
 number_int += 5

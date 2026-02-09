@@ -1,9 +1,8 @@
 '''
 Crie:
-
-idade = 19
-tem_documento = True
-esta_acompanhado = False
+    idade = 19
+    tem_documento = True
+    esta_acompanhado = False
 
 Crie uma variável booleana que seja True se:
 

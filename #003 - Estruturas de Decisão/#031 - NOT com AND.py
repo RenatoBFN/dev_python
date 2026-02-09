@@ -12,7 +12,7 @@ Imprima o resultado.
 '''
 
 tem_login = True
-tem_senha = True
+tem_senha = False
 
 resultado = not (tem_login and tem_senha)
 

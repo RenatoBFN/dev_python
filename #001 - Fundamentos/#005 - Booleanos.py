@@ -1,8 +1,7 @@
 '''
 Crie duas variáveis booleanas:
-
-Uma com valor True
-Outra com valor False
+    Uma com valor True
+    Outra com valor False
 
 Depois, imprima cada uma com uma mensagem explicativa, por exemplo:
 

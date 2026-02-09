@@ -12,7 +12,7 @@ Use if para validar.
 '''
 
 nota = 6
-frequencia = 70
+frequencia = 75
 
 if nota >= 7 or (nota >= 6 and frequencia >= 75):
     print('Aprovado!')

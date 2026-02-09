@@ -1,8 +1,7 @@
 '''
 Crie:
-
-1. idade = 20
-2. tem_documento = True
+    idade = 20
+    tem_documento = True
 
 Use if para verificar se a pessoa pode dirigir.
 '''

@@ -1,7 +1,6 @@
 '''
 Crie:
-
-usuario_logado = False
+    usuario_logado = False
 
 Crie uma variável que represente:
     Usuário NÃO está logado
@@ -13,4 +12,4 @@ usuario_logado = False
 
 validador = not usuario_logado
 
-print(f'O uruário está logado: {validador}.')
+print(f'O usuário está logado: {validador}.')

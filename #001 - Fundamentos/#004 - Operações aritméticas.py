@@ -1,14 +1,14 @@
 '''
 Crie duas variáveis:
-a = 10
-b = 3
+    a = 10
+    b = 3
 
 Calcule e armazene em variáveis:
 
-A soma
-A subtração
-A multiplicação
-A divisão
+1. A soma
+2. A subtração
+3. A multiplicação
+4. A divisão
 
 Imprima todos os resultados.
 '''

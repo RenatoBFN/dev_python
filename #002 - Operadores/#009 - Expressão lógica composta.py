@@ -1,15 +1,13 @@
 '''
 Crie:
-
-a = 5
-b = 10
-c = 15
-
+    a = 5
+    b = 10
+    c = 15
 
 Crie uma variável que seja True se:
 
-    b for maior que a e
-    c for maior que b
+1. b for maior que a e
+2. c for maior que b
 
 Imprima o resultado.
 '''

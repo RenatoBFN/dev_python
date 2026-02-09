@@ -1,14 +1,13 @@
 '''
 Crie:
-
-1. tem_cartao = False
-2. tem_dinheiro = True
+    tem_cartao = False
+    tem_dinheiro = True
 
 Use if para verificar se a compra pode ser realizada.
 '''
 
-tem_cartao = True
-tem_dinheiro = False
+tem_cartao = False
+tem_dinheiro = True
 
 if tem_cartao or tem_dinheiro:
     print('Compra concluída com sucesso.')

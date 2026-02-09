@@ -5,7 +5,7 @@ Crie outra variável booleana que armazene se o número é par (True ou False) u
 Imprima o resultado.
 '''
 
-numero = 10
+numero = 11
 
 is_bool = numero % 2 == 0
 

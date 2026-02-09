@@ -1,11 +1,10 @@
 '''
 Crie:
-
-Uma variável idade (int)
-Uma variável altura (float)
-Uma variável nome (string)
-Uma variável is_estudante (bool)
-
+    Uma variável idade (int)
+    Uma variável altura (float)
+    Uma variável nome (string)
+    
+    Uma variável is_estudante (bool)
 
 Depois, imprima todas em linhas separadas com mensagens explicativas.
 '''

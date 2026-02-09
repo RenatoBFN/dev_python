@@ -1,14 +1,12 @@
 '''
 Crie:
-
-pontos = 10
-
+    pontos = 10
 
 Se o jogador ganhou 3 pontos:
 
-    Use +=
-    Se perdeu 4 pontos:
-    Use -=
+1. Use +=
+2. Se perdeu 4 pontos:
+3. Use -=
 
 Imprima o total final.
 '''

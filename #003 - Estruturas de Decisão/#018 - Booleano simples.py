@@ -6,7 +6,7 @@ Use if para imprimir:
 2. "Usuário não logado"
 '''
 
-usuario_logado = not False
+usuario_logado = True
 
 if usuario_logado:
     print('Usuário logado')
