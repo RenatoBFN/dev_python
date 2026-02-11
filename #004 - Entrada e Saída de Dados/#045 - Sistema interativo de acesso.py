@@ -22,10 +22,20 @@ Crie um programa que:
 '''
 
 idade = int(input('IDADE: '))
-acompanhado = bool(input('ACOMPANHADO? (S = Sim / Enter = Não): '))
-documento = bool(input('Está com documentos? (S = Sim / Enter = Não): '))
+acompanhado = input('ACOMPANHADO? (S = Sim / N = Não): ')
+documento = input('Está com documentos? (S = Sim / N = Não): ')
 
-if (idade >= 18 or (idade < 18 and acompanhado) and documento):
+if acompanhado == 'S' or acompanhado == 's':
+    acompanhado = True
+else:
+    acompanhado = False
+
+if documento == 'S' or documento == 's':
+    documento = True
+else:
+    documento = False
+
+if (idade >= 18 or (idade < 18 and acompanhado)) and documento:
     print('Acesso Permitido')
 else:
     print('Acesso Negado')
