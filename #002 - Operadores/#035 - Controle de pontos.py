@@ -22,7 +22,5 @@ score += 10
 score -= 3
 score += 5
 
-score % 2 == 0
-
 print(f'O jogador {jogador} tem: {score} pontos.\n')
 print(f'O número é par: {score % 2 == 0}') # True == Par / False == Ímpar

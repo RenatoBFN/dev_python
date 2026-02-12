@@ -22,7 +22,7 @@ if opcao == 1:
 elif opcao == 2:
     print(f'\nVocê escolheu: SUBTRAÇÃO')
 else:
-    print('\nVocê escolheu a opção do menu inválida - Escolha > 1 < (SOMAR) ou > 2 > (SUBTRAIR)...')
+    print('\nVocê escolheu a opção do menu inválida - Escolha > 1 < (SOMAR) ou > 2 < (SUBTRAIR)...')
     opcao = int(input('Digita a opção..........: '))
 
 number1 = float(input('Digite o primeiro número: '))
