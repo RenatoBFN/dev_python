@@ -5,5 +5,5 @@ print('Calculadora - Tabuada\n')
 number = int(input('Qual o número que deseja calcular?: '))
 
 for i in range (1,11):
-    i *= number
-    print(i)
+    resultado = i * number
+    print(f'{number} X {i} = {resultado}')

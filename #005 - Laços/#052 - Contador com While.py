@@ -7,11 +7,10 @@ Crie um programa que:
 '''
 number = 0
 
-
 while True:
     valor = int(input('Digite um número: '))
     if valor == 0:
         break
     number += 1
    
-print(number)
+print(f'Quantidade de números digitados: {number}')

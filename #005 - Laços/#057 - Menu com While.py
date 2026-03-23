@@ -20,8 +20,11 @@ while True:
     if opcao == 1:
         print('Olá\n')
     elif opcao == 2:
-        print('1, 2, 3, 4, 5...\n')
+        for i in range(1, 6):
+            print(i)
+        print()
     elif opcao == 0:
+        print('\nSaindo do sistema...')
         break
     else:
         print('Digite uma opção correta!\n')
