@@ -7,23 +7,18 @@ Crie um programa que:
 5. Mostre a soma final
 '''
 
-
 while True:
-    number = input('Qual o número deseja somar: ')
-    soma = int(number)
-    soma += 1
-    
-    for i in number:
-        number == 'SAIR'
-        break
-    
-print(soma, type(soma))
+    number = int(input('Qual o número deseja somar: '))
+    number += number
+    print(number)
+
 
 
 
 #     if number == 'SAIR' or ('sair', 'Sair', 'sAIR'):
 '''
     for i in number:
+        i = str(number)
         number == 'SAIR'
         break
 '''
