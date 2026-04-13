@@ -20,11 +20,11 @@ sal_aumento = aumento / 100 * salario
 total_sal = sal_aumento + salario
 
 print(f'\n VOCÊ RECEBERÁ UM AUMENTO DE: R${sal_aumento}')
-print(f' Seu novo salário é de: {total_sal}')
+print(f' Seu novo salário é de: R${total_sal}')
 
 consulta = input('\nDeseja ver o valor anual? (S/N): ')
 
-if consulta.lower() == 's':
+if consulta.strip().lower() == 's':
     print(f'O valor anual é de: R${total_sal * 12:.2f}')
 else:
     print('Programa Encerrado...')

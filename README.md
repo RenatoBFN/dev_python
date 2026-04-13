@@ -90,3 +90,19 @@ Registrar minha evolução no aprendizado de Python, consolidar conhecimento e s
 - Escrita de condições claras e explícitas
 - Uso de parênteses para evitar ambiguidades lógicas
 - Atenção à interpretação correta do valor booleano (`True` / `False`)
+- Evitar variáveis desnecessárias
+- Pensar na lógica antes de codar
+
+---
+
+### 📌 Laços de Repetição
+- Estrutura `for`
+- Estrutura `while`
+- Função `range()` (start, stop, step)
+- Uso de `break` para interrupção de loops
+- Uso de `continue` para pular iterações
+- Laços aninhados (loop dentro de loop)
+- Contadores (`+= 1`) vs acumuladores (`+= valor`)
+- Controle de fluxo com menus interativos
+- Validação de entrada do usuário
+- Construção de padrões (ex: pirâmide com *)

@@ -10,6 +10,6 @@ Crie um programa que:
 for i in range (1,102,2):
     if i == 3:
         continue
-    if i == 17:
+    if i == 15:
         break
     print(i)

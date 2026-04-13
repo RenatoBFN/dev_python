@@ -4,7 +4,7 @@ Crie um programa que:
 2. Use condições (if/else)
 3. Use for
 4. Use while
-5. Use break e continue
+5. Use break ou continue
 6. Use input()
 
 📌 O programa deve:
@@ -17,47 +17,33 @@ Mostrar:
     maior
     menor
 '''
-num1 = 35
-num2 = 0
-num3 = 15
-num4 = 20
+soma = 0
+contador = 0
 
 while True:
-	entrada = input('Digite um ou vários números para a soma ou "sair": ')
-	
-	if entrada.lower() == "sair":
-	    break
-
-	numero = int(entrada)
-	num2 += numero
-
-print(f'A soma total dos número é de: {num2}.')
-
-print('\nDos números digitados, nós teremos:')
-
-a = 0
-b = 0
-
-for i in numero:
+    entrada = input('Digite um número ou "sair": ')
+    
+    if entrada.lower() == 'sair':
+        break
+    
     numero = int(entrada)
-    if i == 0:
-        a = numero
-        b = numero
+    
+    soma += numero
+    contador += 1
+    
+    if contador == 1:
+        maior = numero
+        menor = numero
     else:
-        if numero > a:
-            a = numero
+        if numero > maior:
+            maior = numero
+        
+        if numero < menor:
+            menor = numero
 
-        if numero < b:
-            b = numero
+media = soma / contador
 
-print(f'Maior número: {a}')
-print(f'Menor número: {b}')
-
-print(f'\nMédia de todos os números do programa: {num1 + num2 + num3 + num4 / 4}.')
-
-print('Apresentando os números pares digitados:\n')
-
-for j in num2:
-	if j % 2 == 0:
-		continue
-	print(j)
+print(f'\nSoma: {soma}')
+print(f'Média: {media}')
+print(f'Maior número: {maior}')
+print(f'Menor número: {menor}')

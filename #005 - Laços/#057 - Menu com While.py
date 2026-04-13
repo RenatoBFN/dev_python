@@ -24,7 +24,7 @@ while True:
             print(i)
         print()
     elif opcao == 0:
-        print('\nSaindo do sistema...')
+        print('\nSaindo do sistema...\n')
         break
     else:
         print('Digite uma opção correta!\n')

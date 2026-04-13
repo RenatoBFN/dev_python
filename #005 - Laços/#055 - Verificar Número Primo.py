@@ -6,10 +6,12 @@ Crie um programa que:
 '''
 number = int(input('Digite um número: '))
 
-if number > 1:
+if number <= 1:
+    print(number, 'não é um número primo')
+else:
     for i in range(2, number):
         if number % i == 0:
-            print(number, 'não é primo')
+            print(number, 'não é um número primo')
             break
     else:
-        print(number, 'é primo')
+        print(number, 'é um número primo')

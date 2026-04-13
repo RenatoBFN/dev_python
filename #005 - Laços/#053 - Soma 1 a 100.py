@@ -9,4 +9,4 @@ number = 0
 for i in range(1, 101):
     number += i
 
-print(f'A soma de todoas os números de 1 a 100 é: {number}')
+print(f'A soma de todos os números de 1 a 100 é: {number}')
