@@ -1,25 +1,18 @@
 '''
-Uma empresa aplica reajuste salarial baseado no salário atual:
-    Até 1500 → +20%
-    1501 até 3000 → +15%
-    3001 até 5000 → +10%
-    Acima de 5000 → +5%
+Crie um programa que:
+1. Pergunte o salário do funcionário
+2. Aplique um reajuste de 10%
 
-O programa deve mostrar:
-1. Salário antes
-2. Percentual aplicado
-3. Valor do aumento
-4. Novo salário
+Mostre:
+1. salário antigo
+2. valor do aumento
+3. novo salário
 '''
 antigo_sal = int(input('Salário do Representante: '))
+porc_aumento = int(input('De quanto será o aumento de salário: '))
 
-if antigo_sal < 1500:
-    novo_sal = antigo_sal * (20 / 100)
-elif antigo_sal >= 1501 or antigo_sal <= 3000:
-    novo_sal = (antigo_sal * 100 / 15)
-elif antigo_sal >= 3001 or antigo_sal <= 5000:
-    novo_sal = (antigo_sal * 100 / 10)
-else:
-    novo_sal = (antigo_sal * 100 / 5)
+novo_sal = antigo_sal * porc_aumento / 100
 
-print(novo_sal)
+print(f'\nO antigo salário era de: R${antigo_sal:.2f}')
+print(f'O aumento será de: R${novo_sal:.2f}')
+print(f'Seu novo salário é de: R${antigo_sal + novo_sal:.2f}')
