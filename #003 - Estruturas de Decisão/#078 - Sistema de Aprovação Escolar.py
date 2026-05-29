@@ -13,9 +13,9 @@ nota = float(input(f'Digite a nota do {nome}: '))
 
 if nota < 5:
     print(f'{nome} está REPROVADO!')
-elif nota >= 5 or nota <= 6.9:
+elif nota >= 5 and nota <= 6.9:
     print(f'{nome} está de RECUPERAÇÃO!')
-elif nota >= 7:
+elif nota >= 7 and nota <= 10:
     print(f'{nome} está APROVADO!')
 else:
-    print('NOTA DIGITADA NÃO ATENDE AOS CRITÉRIOS DE AVALIATIVO!')
+    print('NOTA DIGITADA NÃO ATENDE AOS CRITÉRIOS AVALIATIVO!')
