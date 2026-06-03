@@ -54,4 +54,3 @@ if contador > 0:
     print(f'Média: {media:.2f}')
 else:
     print('Nenhum número válido foi digitado.')
-
