@@ -10,3 +10,6 @@ for soma in range(soma, numero):
     soma += soma
 
 print(soma)
+
+
+<<<<<<<<<<<<<<<<<<<<<<
