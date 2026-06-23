@@ -14,3 +14,11 @@ print(resultado)
 
 Saída: 14
 '''
+entrada_num = int(input('Digite um número inteiro: '))
+
+def dobro(numero):
+    return numero * 2
+
+resultado = dobro(entrada_num)
+
+print(resultado)
