@@ -22,21 +22,21 @@ n2 = float(input('Segunda NOTA.: '))
 n3 = float(input('Tereira NOTA.: '))
 
 def avaliar_aluno(media):
-    soma = n1 + n2 + n3
-    return soma / 3
+    return (n1 + n2 + n3) / 3
 
 resultado_media = avaliar_aluno(n1 + n2 + n3)
 
 def situacao_aluno(status):
     if avaliar_aluno(resultado_media) >= 7:
-        print('Aluno(a) está !APROVADO!')
+        return 'Aluno(a) está !APROVADO!'
     elif avaliar_aluno(resultado_media) >= 5 and avaliar_aluno(resultado_media) <= 6.9:
-        print('Aluno(a) está em !RECUPERAÇÃO!')
+        return 'Aluno(a) está em !RECUPERAÇÃO!'
     else:
-        print('Aluno(a) está !REPROVADO!')
-    return
+        return 'Aluno(a) está !REPROVADO!'
+
+avaliacao_final = situacao_aluno(resultado_media)
 
 print(f'\nA média do alUno(a) {nome} é {avaliar_aluno(resultado_media):.2f}.')
-avaliacao_final = situacao_aluno(resultado_media)
+print(f'Situação: {avaliacao_final}.')
 
 
