@@ -106,3 +106,13 @@ Registrar minha evolução no aprendizado de Python, consolidar conhecimento e s
 - Controle de fluxo com menus interativos
 - Validação de entrada do usuário
 - Construção de padrões (ex: pirâmide com *)
+
+---
+
+### 🧩 Funções
+- Criação de funções com `def`
+- Parâmetros e passagem de argumentos
+- Uso de `return` para devolver valores
+- Organização do código utilizando funções
+- Reutilização de código através de funções
+- Construção de pequenos sistemas utilizando múltiplas funções
