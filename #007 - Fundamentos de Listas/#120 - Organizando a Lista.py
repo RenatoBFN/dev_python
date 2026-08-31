@@ -1,10 +1,10 @@
-'''
+
 Receber vários números.
 Mostrar:
 lista original
 lista ordenada (sort())
 lista invertida (reverse())
-'''
+
 numero = [ ]
 
 while True:
@@ -14,3 +14,6 @@ while True:
         break
 
 print(numero)
+
+
+dddddddddddddddddddddddddddddddddd
